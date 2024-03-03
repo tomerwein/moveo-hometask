@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+
+:root {
+  --font-family-code: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+  --font-family-content: "Inter", sans-serif;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-family-content);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  height: 100%;
+  background-image: url("./media/background.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; 
+  
+}
+
+code {
+  font-family: var(--font-family-code);
+}

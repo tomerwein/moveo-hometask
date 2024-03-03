@@ -1,0 +1,39 @@
+.lobbyContainer {
+  text-align: center;
+  background-color: #e6f7ff;
+  padding: 20px;
+  margin-top: 180px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 80%;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.LobbyTitle {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.codeBlocklist {
+  list-style-type: none;
+  padding: 0;
+}
+
+.listItem {
+  background: #ffffff;
+  margin: 10px 0;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+  display: block;
+  text-decoration: none;
+  color: black;
+}
+
+.listItem:hover {
+  transform: scale(1.02);
+}

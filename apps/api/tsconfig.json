@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "module": "NodeNext",
+    "outDir": "./dist",
+    "esModuleInterop": true,
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
+    "noImplicitAny": false,
+    "checkJs": false,
+    "strictNullChecks": true,
+    "types": ["@types/node"]
+  }
+}
